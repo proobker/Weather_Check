@@ -3,7 +3,7 @@
 # Weather Check
 
 **Weather Check** is a simple web application that allows users to view a 7-day weather forecast for any city around the world. The app fetches real-time weather data through an API and displays it in a clean and user-friendly interface.
-
+---
 ## Features
 
 - Displays the 7-day weather forecast.
