@@ -28,7 +28,9 @@
    cd Weather_Check
    ```
 
-3. Open the `index.html` file in your browser to view the weather forecast.
+3. Open the `layout.html` file in your browser to view the weather forecast.
+
+4. You can also use the `CLI.py` for commandline weather update
 
 ## API Key Setup
 
