@@ -1,7 +1,7 @@
 import requests
 
 def fetch_weather(location):
-    API_KEY = "b660e54c3b3b40af96493619242612"  # Replace with your WeatherAPI key
+    API_KEY = "Your_API_Key"  # Replace with your WeatherAPI key
     BASE_URL = "https://api.weatherapi.com/v1/current.json"
 
     try:
