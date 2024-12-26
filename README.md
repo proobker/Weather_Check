@@ -73,12 +73,37 @@ https://api.openweathermap.org/data/2.5/onecall?lat={latitude}&lon={longitude}&e
 
 ![Weather Check Screenshot](screenshot.png)
 
-## Contributing
+## Contribution
 
-Feel free to fork the repository and make improvements. If you find any bugs or have suggestions, feel free to open an issue or submit a pull request.
+Contributions are welcome! Follow these steps to contribute:
+
+1. Fork this repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add feature description"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Create a pull request.
+
+---
 
 ## License
 
-This project is open-source and available under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## Contact
+
+For queries or feedback, contact:
+- **Email**: rrabi.dahal@gmail.com
+- **GitHub**: [proobker](https://github.com/proobker)
 
 ---
