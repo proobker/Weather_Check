@@ -51,11 +51,12 @@ To get the weather data, this application uses the **OpenWeather API**. Follow t
    ```javascript
    const API_KEY = 'Your_API'; // Replace with your WeatherAPI key
    ```
-  ```python
-  def fetch_weather(location):
-    API_KEY = "Your_API"  # Replace with your WeatherAPI key
-    BASE_URL = "https://api.weatherapi.com/v1/current.json"
-  ```
+   locate the `CLI.py` file and replace the placeholder API key with your own in the following line:
+     ```python
+     def fetch_weather(location):
+       API_KEY = "Your_API"  # Replace with your WeatherAPI key
+       BASE_URL = "https://api.weatherapi.com/v1/current.json"
+     ```
 7. Save the changes, and you're ready to fetch weather data.
 
 ### Example API Request
