@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Forecast</title>
+    <title>7-Day Weather Forecast</title>
     <style>
         /* Global Styling */
         body {
@@ -28,6 +28,9 @@
             padding: 25px;
             overflow: hidden;
             transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
         /* Header Section */
@@ -41,7 +44,34 @@
             font-size: 30px;
             font-weight: 700;
             letter-spacing: 1px;
-            color: #005f73;
+            color: #000279;
+        }
+
+        /* Input Section */
+        .input-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .input-container input, .input-container button {
+            padding: 10px 15px;
+            margin: 5px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .input-container button {
+            background-color: #63a4ff;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+
+        .input-container button:hover {
+            background-color: #537ec5;
         }
 
         /* Forecast Section */
@@ -49,7 +79,8 @@
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 25px;
-            margin: 0;
+            width: 100%;
+            justify-content: center;
         }
 
         /* Forecast Cards */
@@ -92,6 +123,7 @@
         .forecast-card img:hover {
             transform: rotate(10deg);
         }
+
         @media (max-width: 768px) {
             .weather-container {
                 padding: 15px;
@@ -105,6 +137,10 @@
 </head>
 <body>
     <div class="weather-container">
+        <div class="input-container">
+            <input type="text" id="location" placeholder="Enter location (city or latitude,longitude)">
+            <button onclick="fetchWeather()">Get Forecast</button>
+        </div>
         <div class="weather-header">
             <h1>7-Day Weather Forecast</h1>
         </div>
