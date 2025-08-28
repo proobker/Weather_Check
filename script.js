@@ -1,4 +1,4 @@
-const API_KEY = 'b660e54c3b3b40af96493619242612'; // Replace with your WeatherAPI key
+const API_KEY = '########################'; // Replace with your WeatherAPI key
 const BASE_URL = 'https://api.weatherapi.com/v1/forecast.json';
 
 async function fetchWeather() {
